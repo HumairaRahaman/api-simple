@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>API</title>
+  </head>
+  <body>
+    <div class="container w-100 mx-auto">
+      <div class="row w-100 mx-auto">
+        <div class="col-md-6 mx-auto text-center">
+          <h4>search box</h4>
+          <div class="input-group mb-3">
+            <input
+              id="search-box"
+              type="text"
+              placeholder="Search"
+              aria-label="Search"
+              aria-describedby="basic-addon2"
+              class="form-control"
+            />
+            <div class="input-group-append" id="basic-addon2">
+              <span
+                onclick="allplayers()"
+                class="input-group-text"
+                id="search-btn"
+              >
+                search
+              </span>
+            </div>
+          </div>
+          <div class="player-container" id="player-container">
+            <!-- <div class="card p-5 border">
+              <div class="pro-pic">
+                <img class="w-25" src="" alt="" />
+              </div>
+              <h5>Name:</h5>
+              <h2>Country:</h2>
+              <p></p>
+              <div class="allButton">
+                <button class="btn btn-danger">Delete</button>
+                <button class="btn btn-success">Details</button>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        <div class="col-md-6 mx-auto text-center">
+          <h4>right</h4>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
